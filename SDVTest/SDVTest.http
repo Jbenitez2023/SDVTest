@@ -1,0 +1,6 @@
+@SDVTest_HostAddress = http://localhost:5056
+
+GET {{SDVTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
