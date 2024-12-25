@@ -128,8 +128,7 @@ namespace SDVTest.Context
         public DbSet<Weapons> Weapons { get; set; }
         public DbSet<Vehicles> Vehicles { get; set; }
         public DbSet<Enemies> Enemies { get; set; }
-
-         public DbSet<People_Materia> peopleMateria { get; set; }
+        public DbSet<People_Materia> peopleMateria { get; set; }
 
 
     }
